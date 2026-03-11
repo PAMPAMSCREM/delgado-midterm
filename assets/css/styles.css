@@ -37,6 +37,12 @@ body {
 	background-color: rgb(245, 215, 227);
 }
 
+img {
+  max-width: 100%;
+	height: auto; /* Maintains the aspect ratio */
+  display: block; /* Helps with alignment issues */
+}
+
 /* DM Mono Font */
 .dm-mono-light {
   font-family: "DM Mono", monospace;
