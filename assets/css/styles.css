@@ -3,7 +3,7 @@
 h1 {
   font-family: "Knewave";
 	font-size: 100px;
-	color: rgb(255, 255, 252);
+	color: Black;
 	padding-left: 30px;
 	padding-top: 30px;
 	padding-bottom: 30px;
@@ -12,8 +12,19 @@ h1 {
 }
 
 h2{
-  font-family: "DM Mono";
-	font-size: 150px;
+  font-family: "Knewave";
+	font-size: 50px;
+	color: Grey;
+	padding-left: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-left: 30px;
+	border-top: 10px;
+}
+
+p{
+	font-family: "DM Mono";
+	font-size: 35px;
 	color: rgb(255, 255, 252);
 	padding-left: 30px;
 	padding-top: 30px;
