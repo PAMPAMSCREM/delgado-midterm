@@ -10,15 +10,15 @@
 <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Knewave&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/styles.css">
 	<!--Midterm Exam (10 points) -- Each of the following steps is worth one point as you build an online resume:
-  1. Add a title tag to name the page with your name, ie. Ken Starzer Resume
-  2. Add a first-level heading to the page with your name
+X 1. Add a title tag to name the page with your name, ie. Ken Starzer Resume
+X  2. Add a first-level heading to the page with your name
   3. Add a paragraph tag beneath the first heading and write two sentences about yourself. 
-  4. Add a second-level heading to the page to create the Education section
-  5. Add a bulleted or numbered list in that section with the names of schools you have attended after high school. Then repeat steps 4 and 5 for other sections, such as Employment, Skills (to list software skills, etc.), Awards or Clubs (if those apply), or anything else you want to add.
-  6. Add links to the page where appropriate (you need to have at least one link). If you want to make a link to email you, the href should point to "mailto:youremailaddress@utdallas.edu"
-  7. Choose two Google Web Fonts and link to them in your page--one for your display text (title of your page or headings) and one for body copy
+X  4. Add a second-level heading to the page to create the Education section
+X  5. Add a bulleted or numbered list in that section with the names of schools you have attended after high school. Then repeat steps 4 and 5 for other sections, such as Employment, Skills (to list software skills, etc.), Awards or Clubs (if those apply), or anything else you want to add.
+X  6. Add links to the page where appropriate (you need to have at least one link). If you want to make a link to email you, the href should point to "mailto:youremailaddress@utdallas.edu"
+X  7. Choose two Google Web Fonts and link to them in your page--one for your display text (title of your page or headings) and one for body copy
   8. Create styles to change the font-face (use the Google Web Font) and color of your headings, and create other typographic treatments
-  9. Add the necessary links from getbootstrap.com to use the Bootstrap framework and add the following wrapper to your page starting just beneath the body tag (and closing just before the close body tag):
+X  9. Add the necessary links from getbootstrap.com to use the Bootstrap framework and add the following wrapper to your page starting just beneath the body tag (and closing just before the close body tag):
         <div class="container">
           Add resume content here
         </div>
@@ -31,27 +31,43 @@
 </head>
 <body>
 
-	<h1>Pamela Delgado ATCM 2335.501 Internet Studio 1 -S26</h1>
-	<a href="mailto:pnd240000@utdallas.edu"></a>
-	<p></p></p>
+	<div class="conntainer"><!--START OF CONTAINER 1-->
+		<div class="row text-center headline">
+			<h1>
+				<div class="row-center headline">Pamela Delgado ACTM 2335.501 Internet Studio 1 - S26</span>
+			</h1>
+		</div>
 
-	<div class="conntainer">
-		<h2>Education:</h2>
-		<!--Add bullets of schools-->
-		<p>Richardson High School (CLASS of 2020)</p>
-		<p>Dallas College (CLASS of 2024)</p>
-		<p>University of Texas Dallas (Undergraduate)</p>
-		<h2>Employment</h2>
-		<!--Add bullets of work-->
-		<p>Micro Center (2025 - Present)</p>
-		<p>Home Depot (2020 - 2022)</p>
-		<h2>Portfolio</h2>
-		<!--Add Artstation-->
-		<a href="link">Artstation</a>
-	</div>
-	
+		<p><!--2 sentences about me-->
+			
+		</p>
+	</div> <!--END OF CONTAINER 1-->
 
-	
-	
+		<div class="row"> <!--START OF CONTAINER 2-->
+		<div class="col-8">
+					<h2>Education:</h2>
+					<!--Add bullets of schools-->
+					<p>1. Richardson High School (CLASS of 2020)</p>
+					<p>2. Dallas College (CLASS of 2024)</p>
+					<p>3 .University of Texas Dallas (Undergraduate)</p>
+					<div style="height: 15px;"></div> <!-- Adds a 30px empty vertical space -->
+					
+					<h2>Employment</h2>
+					<!--Add bullets of work-->
+					<p>1. Micro Center (2025 - Present)</p>
+					<p>2. Old Navy (2024 - 2025)</p>
+					<p>3. Home Depot (2022 - 2024)</p>
+					<div style="height: 15px;"></div> <!-- Adds a 30px empty vertical space -->
+					
+					<h2>Portfolio</h2>
+					<!--Add Artstation-->
+					<a href="https://www.artstation.com/pnd_thescrem">Artstation</a>
+					<a href="mailto:pnd240000@utdallas.edu">pnd240000@utdallas.edu</a>
+		</div>
+		</div> <!-- END OF CONTAINER 2-->
+
+	<!--DO NOT DELETE BOOTSTRAP-->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="./assets/js/main.js"></script>
 </body>
 </html>
