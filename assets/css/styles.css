@@ -1,6 +1,26 @@
 /* styles.css */
 
-h1
+h1 {
+  font-family: "Knewave";
+	font-size: 100px;
+	color: rgb(255, 255, 252);
+	padding-left: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-left: 30px;
+	border-top: 10px;
+}
+
+h2{
+  font-family: "DM Mono";
+	font-size: 150px;
+	color: rgb(255, 255, 252);
+	padding-left: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-left: 30px;
+	border-top: 10px;
+}
 
 /* DM Mono Font */
 .dm-mono-light {
